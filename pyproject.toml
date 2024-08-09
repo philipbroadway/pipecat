@@ -20,7 +20,7 @@ classifiers = [
     "Topic :: Scientific/Engineering :: Artificial Intelligence"
 ]
 dependencies = [
-    "aiohttp~=3.9.5",
+    "aiohttp>=3.9.5,<3.11.0",
     "numpy~=1.26.4",
     "loguru~=0.7.0",
     "Pillow~=10.3.0",
