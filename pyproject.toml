@@ -35,7 +35,7 @@ Website = "https://pipecat.ai"
 anthropic = [ "anthropic~=0.25.7" ]
 azure = [ "azure-cognitiveservices-speech~=1.37.0" ]
 daily = [ "daily-python~=0.7.4" ]
-examples = [ "python-dotenv~=1.0.0", "flask~=3.0.3", "flask_cors~=4.0.1" ]
+examples = [ "python-dotenv~=1.0.0", "flask~=3.0.3", "flask_cors>=4.0.1,<5.1.0" ]
 fal = [ "fal-client~=0.4.0" ]
 fireworks = [ "openai~=1.26.0" ]
 local = [ "pyaudio~=0.2.0" ]
